@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function RoomItem() {
   return (
-    <div className="w-[396px] border-2 rounded-[8px]">
+    <div className="w-[396px] border-2 rounded-[8px] shadow-md">
       <div className="p-4 flex items-center">
         <img
           src="https://images.unsplash.com/photo-1656748145220-a78aa9c104ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ0fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -32,9 +33,9 @@ function RoomItem() {
           <p className="text-[gray] text-sm">
             time up: <span className="text-[#FF0063] text-lg">72:59:59</span>
           </p>
-          <button className="ml-auto block px-10 py-2 border-1 text-white bg-[#3AB0FF] rounded">
+          <Link to="chat" className="ml-auto block px-10 py-2 border-1 text-white bg-[#3AB0FF] hover:bg-sky-700 rounded">
             Join
-          </button>
+          </Link>
         </div>
       </div>
     </div>

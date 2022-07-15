@@ -5,11 +5,11 @@ import ChatInput from "./ChatInput";
 
 function ChatWindow() {
   return (
-    <div className="w-full h-full">
+    <>
       <ChatHeader />
       <ChatMessage />
       <ChatInput />
-    </div>
+    </>
   );
 }
 

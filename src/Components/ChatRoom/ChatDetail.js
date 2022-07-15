@@ -3,14 +3,16 @@ import React from "react";
 function ChatDetail() {
   return (
     <div className="w-full flex flex-col gap-8">
-      <div className="flex items-center justify-between">
-        <i className="text-lg fa-brands fa-airbnb"></i>
-        <h4 className="mr-auto px-6 text-[20px] font-bold">Chat Details</h4>
-        <i className="block w-6 h-6 flex items-center justify-center bg-[gray] text-white rounded-[50%] cursor-pointer fa-solid fa-xmark"></i>
+      <div className="flex items-center justify-between p-1 shadow-sm shadow-[#B8FFF9]">
+        <i className="text-[#B8FFF9] text-lg fa-brands fa-airbnb"></i>
+        <h4 className="mr-auto px-6 text-[20px] text-[#EFFFFD] font-medium">
+          Chat Details
+        </h4>
+        <i className="block w-6 h-6 flex items-center justify-center bg-[#EFFFFD] text-[#42C2FF] rounded-[50%] cursor-pointer fa-solid fa-xmark"></i>
       </div>
       <div>
-        <h6 className="text-base flex justify-between items-center mb-2">
-          Members <span className="text-lg mr-auto px-2">8</span>
+        <h6 className="text-xs text-[#B8FFF9] flex justify-between items-center mb-2">
+          Members <span className="text-[#EFFFFD] text-sm mr-auto px-2">8</span>
           <i className="fa-solid fa-angle-down"></i>
         </h6>
 
@@ -21,12 +23,12 @@ function ChatDetail() {
               alt="avatar"
               className="w-6 h-6 rounded-[50%]"
             />
-            <h4 className="ml-3">Ingrid Krol</h4>
-            <span className="inline-block ml-2 text-sm text-[orange]">
+            <h4 className="text-[#EFFFFD] ml-3">Ingrid Krol</h4>
+            <span className="inline-block ml-2 text-sm text-[#B8FFF9]">
               Creator
             </span>
-            <i className="block px-6 ml-auto fa-solid fa-phone"></i>
-            <i className="fa-solid fa-comment"></i>
+            <i className="block text-[#B8FFF9] px-6 ml-auto fa-solid fa-phone"></i>
+            <i className="text-[#B8FFF9] fa-solid fa-comment"></i>
           </li>
           <li className="w-full flex items-center">
             <img
@@ -34,9 +36,12 @@ function ChatDetail() {
               alt="avatar"
               className="w-6 h-6 rounded-[50%]"
             />
-            <h4 className="ml-3">Ingrid Krol</h4>
-            <i className="block px-6 ml-auto fa-solid fa-phone"></i>
-            <i className="fa-solid fa-comment"></i>
+            <h4 className="text-[#EFFFFD] ml-3">Ingrid Krol</h4>
+            <span className="inline-block ml-2 text-sm text-[#B8FFF9]">
+              Creator
+            </span>
+            <i className="block text-[#B8FFF9] px-6 ml-auto fa-solid fa-phone"></i>
+            <i className="text-[#B8FFF9] fa-solid fa-comment"></i>
           </li>
           <li className="w-full flex items-center">
             <img
@@ -44,15 +49,19 @@ function ChatDetail() {
               alt="avatar"
               className="w-6 h-6 rounded-[50%]"
             />
-            <h4 className="ml-3">Ingrid Krol</h4>
-            <i className="block px-6 ml-auto fa-solid fa-phone"></i>
-            <i className="fa-solid fa-comment"></i>
+            <h4 className="text-[#EFFFFD] ml-3">Ingrid Krol</h4>
+            <span className="inline-block ml-2 text-sm text-[#B8FFF9]">
+              Creator
+            </span>
+            <i className="block text-[#B8FFF9] px-6 ml-auto fa-solid fa-phone"></i>
+            <i className="text-[#B8FFF9] fa-solid fa-comment"></i>
           </li>
         </ul>
       </div>
       <div>
-        <h6 className="text-base flex justify-between items-center mb-2">
-          Media <span className="text-lg mr-auto px-2">1369</span>
+        <h6 className="text-xs text-[#B8FFF9] flex justify-between items-center mb-2">
+          Media
+          <span className="text-sm text-[#EFFFFD] mr-auto px-2">1369</span>
           <i className="fa-solid fa-angle-down"></i>
         </h6>
         <div className="flex items-center justify-between">
@@ -71,7 +80,9 @@ function ChatDetail() {
             alt="avatar"
             className="w-16 h-16 rounded-lg"
           />
-          <span className="inline-block flex items-center justify-center bg-[gray] text-white w-16 h-16 rounded-lg">+1366</span>
+          <span className="inline-block flex items-center justify-center bg-[#EFFFFD] text-[#42C2FF] w-16 h-16 rounded-lg">
+            +1366
+          </span>
         </div>
       </div>
     </div>
